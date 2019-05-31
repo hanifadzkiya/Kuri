@@ -1,5 +1,4 @@
 # Kuri
-**_(Ubah file README.md ini setelah program diselesaikan)_**
 
 ## Deskription
 
@@ -7,21 +6,21 @@ Kuri is master of text encription that delivered specially for you. Now, Kuri ca
 
 ## Spesifikasi API
 
-##1. Caesar Cipher
+## 1. Caesar Cipher
 
-###LOCAL :
+### LOCAL :
 
 ```
 	http://127.0.0.1:5000/caesarcipher POST
 ```
 
-###NETWORK :
+### NETWORK :
 
 ```
 	https://adzkiya.id/cipher/caesarcipher POST
 ```
 
-###Either Local or network has params :
+### Either Local or network has params :
 
 ```JSON
 {
@@ -29,14 +28,14 @@ Kuri is master of text encription that delivered specially for you. Now, Kuri ca
 	"key" : "THE NUMBER OF ALPHABET SHIFT"
 }
 ```
-###Output :
+### Output :
 
 ```JSON
 {
 	"ciphertext": "Encrypted Text"
 }
 ```
-###Example Request : 
+### Example Request : 
 
 ```JSON
 {
@@ -45,7 +44,7 @@ Kuri is master of text encription that delivered specially for you. Now, Kuri ca
 }
 ```
 
-###Output :
+### Output :
 
 ``` JSON
 {
@@ -53,25 +52,25 @@ Kuri is master of text encription that delivered specially for you. Now, Kuri ca
 }
 ```
 
-###Screenshoot :
+### Screenshoot :
 
 <img src="img/1.png">
 
-##2. Vigenere Cipher
+## 2. Vigenere Cipher
 
-###LOCAL :
+### LOCAL :
 
 ```
 	http://127.0.0.1:5000/vigenerecipher POST
 ```
 
-###NETWORK :
+### NETWORK :
 
 ```
 	https://adzkiya.id/cipher/vigenerecipher POST
 ```
 
-###Either Local or network has params :
+### Either Local or network has params :
 
 ```JSON
 {
@@ -79,14 +78,14 @@ Kuri is master of text encription that delivered specially for you. Now, Kuri ca
 	"key" : "THE KEYWORD"
 }
 ```
-###Output :
+### Output :
 
 ```JSON
 {
 	"ciphertext": "Encrypted Text"
 }
 ```
-###Example Request : 
+### Example Request : 
 
 ```JSON
 {
@@ -95,7 +94,7 @@ Kuri is master of text encription that delivered specially for you. Now, Kuri ca
 }
 ```
 
-###Output :
+### Output :
 
 ``` JSON
 {
@@ -103,6 +102,6 @@ Kuri is master of text encription that delivered specially for you. Now, Kuri ca
 }
 ```
 
-###Screenshoot :
+### Screenshoot :
 
 <img src="img/2.png">
